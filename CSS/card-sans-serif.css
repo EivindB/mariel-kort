@@ -1,0 +1,228 @@
+/* 
+   Title: card-sans-serif
+   Author: Eivind Eikeset Birkedal
+   Description: Theme for use in personal context
+*/
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&display=swap");
+html {
+  font-size: 2em; }
+  @media screen and (min-width: 320px) {
+    html html {
+      font-size: calc($basefont + 23px * ((100vw - 320px) / 680)); } }
+  @media screen and (min-width: 1000px) {
+    html html {
+      font-size: 1px; } }
+
+div#wrapper {
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-rows: auto; }
+
+article {
+  grid-column-start: col-start 2;
+  grid-column-end: col-end 2; }
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1.1em;
+  margin: .6563em 0;
+  text-align: center; }
+
+h2 {
+  font-size: 2em;
+  line-height: 1em;
+  margin: .875em 0;
+  text-align: center; }
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1em;
+  margin: 1em 0;
+  text-align: center; }
+
+h4 {
+  font-size: 1,3em;
+  line-height: 1.1667em;
+  margin: 1.1667em 0;
+  text-align: center; }
+
+h5 {
+  font-size: 1.15em;
+  line-height: 1.3em;
+  margin: 1.3em 0;
+  text-align: center; }
+
+h6 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 1.5em 0;
+  text-align: center; }
+
+body, p, td, div {
+  color: #1a2a3a;
+  font-family: "Source Sans Pro", sans-serif;
+  word-wrap: break-word;
+  line-height: 1,5em;
+  text-align: center; }
+
+em {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: italic; }
+
+strong {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 800;
+  font-size: 1.02em; }
+
+h1, h2, h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #1a2a3a;
+  font-weight: 900; }
+
+h4, h5, h6 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #1a2a3a;
+  font-weight: 800; }
+
+a {
+  -webkit-transition: color .2s ease-in-out;
+  -moz-transition: color .2s ease-in-out;
+  -o-transition: color .2s ease-in-out;
+  -ms-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
+  color: #1a2a3a;
+  font-family: "Source Sans Pro", sans-serif;
+  text-decoration: underline; }
+
+a:hover {
+  color: #3593d9;
+  padding: 30px #eee; }
+
+a:visited {
+  color: #A0E5EC; }
+
+.footnote {
+  color: #0d6ea1;
+  font-size: .8em;
+  vertical-align: super; }
+
+dd {
+  margin-bottom: 1em; }
+
+li > p:first-child {
+  margin: 0; }
+
+ol li {
+  line-height: 1.5em;
+  padding-bottom: 15px; }
+
+ul li {
+  line-height: 1.5em;
+  padding-bottom: 5px; }
+
+ul ul, ul ol {
+  margin-bottom: .4em; }
+
+caption, col, colgroup, table, tbody, td, tfoot, th, thead, tr {
+  border-spacing: 0; }
+
+img {
+  max-width: 100%; }
+
+@media (min-width: 40em) {
+  /* Probably some parent element that limits the img width */
+  main {
+    width: 80%; } }
+figcaption {
+  text-align: center;
+  background: white;
+  color: #1a2a3a;
+  left: 0;
+  bottom: -24px;
+  width: 98%;
+  padding: 1%;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out; }
+
+blockquote p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  margin-right: 10px; }
+
+sup, sub, a.footnote {
+  font-size: 1.4ex;
+  height: 0;
+  line-height: 1;
+  position: relative;
+  vertical-align: super; }
+
+sub {
+  vertical-align: sub;
+  top: -1px; }
+
+table {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-collapse: collapse;
+  display: table;
+  empty-cells: hide;
+  margin: -1px 0 23px;
+  padding: 0;
+  table-layout: fixed; }
+
+th {
+  font-family: Lato;
+  font-weight: bold;
+  color: #1a2a3a; }
+
+caption {
+  display: table-caption; }
+
+col {
+  display: table-column; }
+
+colgroup {
+  display: table-column-group; }
+
+tbody {
+  display: table-row-group; }
+
+tfoot {
+  display: table-footer-group; }
+
+thead {
+  display: table-header-group; }
+
+td, th {
+  display: table-cell; }
+
+tr {
+  display: table-row; }
+
+table th, table td {
+  font-size: 1.1em;
+  line-height: 23px;
+  padding: 0 1em; }
+
+table thead {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+
+table tbody {
+  background: #eee; }
+
+table tfoot {
+  background: rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-top: 1px solid rgba(0, 0, 0, 0.2); }
+
+table tr:nth-child(odd) {
+  background: #fff; }
+
+table tr:nth-child(even) {
+  background: #eee; }
+
+/*# sourceMappingURL=card-sans-serif.css.map */
