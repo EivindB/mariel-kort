@@ -216,7 +216,7 @@ table tr:nth-child(even) {
 
 @media screen and (min-width: 250px) {
   html {
-    font-size: 2.5vw; }
+    font-size: 3vw; }
 
   article {
     padding: 5%; } }
