@@ -189,7 +189,7 @@ tr {
   display: table-row; }
 
 table th, table td {
-  font-size: 1.1em;
+  font-size: 2vw;
   line-height: 23px;
   padding: 0 1em; }
 

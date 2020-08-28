@@ -104,7 +104,7 @@ em {
 
 strong {
     font-family: $font-strong;
-    font-weight: 800;   
+    font-weight: 800;
 }
 
 h1,h2,h3 {
@@ -261,7 +261,7 @@ tr {
 }
 
 table th,table td {
-    font-size: 1.1em;
+    font-size: $basefont;
     line-height: 23px;
     padding: 0 1em;
 }
