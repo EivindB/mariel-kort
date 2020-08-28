@@ -220,7 +220,10 @@ table tr:nth-child(even) {
 
   article {
     padding: 5%; } }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 2vw; } }
+@media screen and (min-width: 1600px) {
   html {
     font-size: 1vw; } }
 
