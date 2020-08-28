@@ -25,20 +25,7 @@ html{
     font-size: $basefont;
 }
 
-@media screen and (min-width: 320px) {
-    html {
-      font-size: 2vw;
-    }
-    article{
-        padding: 0;
-    }
-  }
 
-@media screen and (min-width: 1400px) {
-    html {
-        font-size: 1vw;
-        }
-    }
 
 // Simple grid system
 
@@ -293,3 +280,18 @@ table tr:nth-child(odd){
 table tr:nth-child(even){
     background: #eee;
 }
+
+@media screen and (min-width: 250px) {
+    html {
+      font-size: 2.5vw;
+    }
+    article{
+        padding: 5%;
+    }
+  }
+
+@media screen and (min-width: 1400px) {
+    html {
+        font-size: 1vw;
+        }
+    }
