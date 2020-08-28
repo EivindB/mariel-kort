@@ -140,7 +140,6 @@ a:visited{
 
 .footnote {
     color: #0d6ea1;
-    font-size: .8em;
     vertical-align: super;
 }
 
@@ -180,7 +179,7 @@ img {
   }
 
 
-figcaption {    
+figcaption {
     text-align: center;
     background: white;
     color: #1a2a3a;
@@ -197,13 +196,11 @@ figcaption {
 
 blockquote p {
     font-family: $default-font-family;
-    font-size: 1.2em;
     line-height: 1.6em;
     margin-right: 10px;
 }
 
 sup,sub,a.footnote {
-    font-size: 1.4ex;
     height: 0;
     line-height: 1;
     position: relative;
